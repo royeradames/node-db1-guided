@@ -1,6 +1,6 @@
 module.exports = {
 	development: {
-		client: "sqlite3",
+		client: "sqlite3", //<-- the databse driver
 		connection: {
 			filename: "./data/messages.db3",
 		},
